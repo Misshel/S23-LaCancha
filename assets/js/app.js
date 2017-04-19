@@ -9,14 +9,16 @@ body.appendChild(section);
 
 for(var i=0;i<6;i++){
   var div=document.createElement("div");
+  div.classList.add("elementos");
   cancha.appendChild(div);
   if(i<3){
-    div.setAttribute("class","pelotas");
+    div.classList.add("pelotas");
+    div.setAttribute("id","pelota"+i)
   }else if (i>2 & i<5) {
-    div.setAttribute("class","porteria");
+    div.classList.add("porteria");
     div.setAttribute("id","porteria"+(i-2))
   }else {
-    div.setAttribute("class","centro");
+    div.classList.add("centro");
   }
 }
 

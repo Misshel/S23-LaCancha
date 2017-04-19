@@ -3,8 +3,8 @@ body, section{
 }
 
 section, .cancha, .porteria, .centro{
-  border: 1px solid;
-  border-color: black;
+  border: 2px solid;
+  border-color: white;
 }
 
 section{
@@ -24,9 +24,8 @@ section{
   margin: 60px;
 }
 
-{
+.elementos{
   position: absolute;
-
 }
 .porteria{
   display: inline-block;
@@ -36,16 +35,41 @@ section{
 }
 
 #porteria1{
-  left: -1px;
+  left: -2px;
 }
 
-
 #porteria2{
-  right: -1px;
+  right: -2px;
+}
+
+.centro, .pelotas{
+  border-radius: 50px;
 }
 
 .centro{
-  border-radius: 50px;
   height: 100px;
   width: 100px;
+  top: 130px;
+  left: 42%;
+}
+
+.pelotas{
+  height: 15px;
+  width: 15px;
+  background-color: white;
+}
+
+#pelota0{
+  top: 101px;
+  left: 119px;
+}
+
+#pelota1{
+  top: 54px;
+  left: 330px;
+}
+
+#pelota2{
+  top: 249px;
+  right: 127px;
 }

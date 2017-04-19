@@ -14,6 +14,7 @@ for(var i=0;i<6;i++){
     div.setAttribute("class","pelotas");
   }else if (i>2 & i<5) {
     div.setAttribute("class","porteria");
+    div.setAttribute("id","porteria"+(i-2))
   }else {
     div.setAttribute("class","centro");
   }

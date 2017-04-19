@@ -1,0 +1,51 @@
+body, section{
+  text-align: center;
+}
+
+section, .cancha, .porteria, .centro{
+  border: 1px solid;
+  border-color: black;
+}
+
+section{
+  box-sizing: border-box;
+  width: 80%;
+  height: 500px;
+  display: inline-block;
+  margin: 50px;
+  background-color: rgba(103, 196, 103, 0.64);
+}
+
+.cancha{
+  position: relative;
+  width: 88%;
+  height: 370px;
+  box-sizing: border-box;
+  margin: 60px;
+}
+
+{
+  position: absolute;
+
+}
+.porteria{
+  display: inline-block;
+  width: 126px;
+  height: 160px;
+  top: 100px;
+}
+
+#porteria1{
+  left: -1px;
+}
+
+
+#porteria2{
+  right: -1px;
+}
+
+.centro{
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
